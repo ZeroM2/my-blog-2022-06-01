@@ -7,9 +7,9 @@ const IndexPage = () => {
       <title>Home Page!!!</title>
 
       <div style={{ display: "flex", gap: 20 }}>
-        <Link href="/">홈</Link>
-        <Link href="/about">about</Link>
-        <Link href="/content">content</Link>
+        <Link to="/">홈</Link>
+        <Link to="/about">about</Link>
+        <Link to="/content">content</Link>
       </div>
       <h1>Home !!!!</h1>
     </main>
