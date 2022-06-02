@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-function head() {
+function Head() {
   return (
     <div style={{ display: "flex", gap: 20 }}>
       <Link to="/">홈</Link>
@@ -11,4 +11,4 @@ function head() {
   );
 }
 
-export default head;
+export default Head;
