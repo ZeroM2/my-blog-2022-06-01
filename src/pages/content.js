@@ -1,14 +1,12 @@
 import React from "react";
-import Head from "../components/Head";
+import Layout from "../components/layout";
 function content() {
   return (
-    <main>
+    <Layout>
       <title> content</title>
 
-      <head />
-
       <h1>콘텐츠가 업로드 되는 곳입니다. </h1>
-    </main>
+    </Layout>
   );
 }
 
